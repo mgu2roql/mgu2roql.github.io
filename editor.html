@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+    <title>Editor - auto redirect page</title>
+</head>
+<body>
+    <script>
+        function getQueryString(name) {
+            const url_string = window.location.href;
+            const url = new URL(url_string);
+            return url.searchParams.get(name);
+        }
+        function redirect(){
+            var aaaaa = window.location.href.split("/");
+            aaaaa.pop();
+            aaaaa.push("editor");
+            var last_part = "main.html";
+            var file_name = getQueryString("id");
+            if (file_name != null){
+                last_part = last_part.concat("?id=".concat(file_name))
+            }
+            aaaaa.push(last_part);
+            window.location.href = aaaaa.join("/");
+        }
+        redirect();
+    </script>
+</body>
