@@ -471,7 +471,7 @@
 						a = e.getElementsByClassName("highlightjs-style-link");
 					a.length && e.removeChild(a[0]);
 					var r = document.createElement("link");
-					r.setAttribute("rel", "stylesheet"), r.setAttribute("type", "text/css"), r.setAttribute("class", "highlightjs-style-link"), r.setAttribute("href", "./highlight.github.css"), r.onload = function() {
+					r.setAttribute("rel", "stylesheet"), r.setAttribute("type", "text/css"), r.setAttribute("class", "highlightjs-style-link"), r.setAttribute("href", "https://jsd.onmicrosoft.cn/gh/mgu2roql/mgu2roql.github.io@main/editor/highlight.github.css"), r.onload = function() {
 						return n.setLoading(!1)
 					}, r.onerror = function() {
 						n.setLoading(!1), _.b.error("\u4e3b\u9898\u83b7\u53d6\u5931\u8d25\uff0c\u8bf7\u7a0d\u540e\u91cd\u8bd5\u6216\u5c1d\u8bd5\u5176\u5b83\u4e3b\u9898")
@@ -481,7 +481,7 @@
 						t = e.getElementsByClassName("markdownTheme-style-link");
 					t.length && e.removeChild(t[0]);
 					var a = document.createElement("link");
-					a.setAttribute("rel", "stylesheet"), a.setAttribute("type", "text/css"), a.setAttribute("class", "markdownTheme-style-link"), a.setAttribute("href", "./markdown.css"), a.onload = function() {
+					a.setAttribute("rel", "stylesheet"), a.setAttribute("type", "text/css"), a.setAttribute("class", "markdownTheme-style-link"), a.setAttribute("href", "https://jsd.onmicrosoft.cn/gh/mgu2roql/mgu2roql.github.io@main/editor/markdown.css"), a.onload = function() {
 						return n.setLoading(!1)
 					}, a.onerror = function() {
 						n.setLoading(!1), _.b.error("\u4e3b\u9898\u83b7\u53d6\u5931\u8d25\uff0c\u8bf7\u7a0d\u540e\u91cd\u8bd5\u6216\u5c1d\u8bd5\u5176\u5b83\u4e3b\u9898")
